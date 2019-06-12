@@ -42,7 +42,7 @@ uid=123456
 
 进入“yyets”文件夹，执行以下命令修改文件权限。
 
-chmod +x install.pl
+chmod +x install.sh
 
 -对Ubuntu用户
 
@@ -54,16 +54,16 @@ sudo su
 
 b.执行以下命令修改文件权限：
 
-chmod +x install.pl
+chmod +x install.sh
 
 
 5.启动本地服务
 
-./install.pl start
+./install.sh start
 
 停止本地服务
 
-./install.pl stop
+./install.sh stop
 
 
 6.浏览器登录，地址为： ip+端口号
